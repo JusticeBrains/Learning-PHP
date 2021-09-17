@@ -22,7 +22,7 @@
 	function send_message( $form_data ) {
 		$name = filter_var( strip_tags( trim( $form_data['name'] ) ), FILTER_SANITIZE_MAGIC_QUOTES );
 		$email = filter_var( $form_data['email'], FILTER_SANITIZE_EMAIL );
-		$to = "Joe Casabona <joe@casabona.org>";
+		$to = "McLean Cofie <justicemclean@protonmail.com>";
 		$from = "$name <$email>";
 		$reason = ucfirst( $form_data['reason'] );
 		$subject = "Conact Form Filled out. Reason: $reason";
