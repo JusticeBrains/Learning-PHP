@@ -4,8 +4,8 @@
     $c = 5 * ( (12/2)-(8*4)+(12*6));
 
     $results = array($a , $b , $c);
-
+     $k = 2;
     echo '<pre>';
-    print_r($results);
+    print_r(3**2+5*2);
     echo '</pre>';
 ?>

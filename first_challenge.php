@@ -5,6 +5,6 @@
     $friend = 'George';
     $candy = 'Sour Patch Kids';
 
-    echo "<h1> $name </h1> lives in $city with her friend $friend eat $candy whiles watching <i>$movie</i>";
+    echo "<p> <h1> $name </h1> lives in $city with her friend $friend eat $candy whiles watching <i>$movie</i> </p>";
 
 ?>
